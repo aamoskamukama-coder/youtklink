@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YouthLink Uganda helps young people discover jobs, skills, guidance and mentors across Uganda.">
+  <title>YouthLink Uganda</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Youth<span>Link</span> Uganda</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#guidance">Guidance</a></li>
+          <li><a href="#mentors">Mentors</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Find Work. Build Skills. Get Guidance.</h1>
+        <p>YouthLink Uganda helps young people discover local job and internship opportunities, free and low-cost skills programmes, practical career guidance, and mentors who understand the Ugandan labour market.</p>
+        <div class="hero-actions">
+          <a href="#jobs" class="btn btn-primary">Browse Jobs</a>
+          <a href="#skills" class="btn btn-secondary">Explore Skills</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="stats" role="group" aria-label="Key figures">
+        <div class="stat-item">
+          <div class="stat-number">120+</div>
+          <div class="stat-label">Opportunities listed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">35</div>
+          <div class="stat-label">Skills programmes</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">18</div>
+          <div class="stat-label">Mentors available</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">Free</div>
+          <div class="stat-label">Always for youth</div>
+        </div>
+      </div>
+
+      <section id="jobs">
+        <div class="page-header">
+          <h1>Jobs &amp; Internships</h1>
+          <p>Filter and browse entry-level jobs, internships and volunteer opportunities across Uganda. Always verify details with the employer before applying.</p>
+        </div>
+
+        <h2 class="section-title">Available opportunities</h2>
+        <div class="filter-bar" role="search" aria-label="Filter opportunities">
+          <label for="location">Location</label>
+          <select id="location" name="location">
+            <option value="">All locations</option>
+            <option>Kampala</option>
+            <option>Jinja</option>
+            <option>Mbarara</option>
+            <option>Gulu</option>
+            <option>Remote</option>
+          </select>
+          <label for="type">Type</label>
+          <select id="type" name="type">
+            <option value="">All types</option>
+            <option>Full-time</option>
+            <option>Part-time</option>
+            <option>Internship</option>
+            <option>Volunteer</option>
+          </select>
+          <label for="sector">Sector</label>
+          <select id="sector" name="sector">
+            <option value="">All sectors</option>
+            <option>ICT</option>
+            <option>Agriculture</option>
+            <option>Health</option>
+            <option>Education</option>
+            <option>Creative</option>
+          </select>
+        </div>
+
+        <div class="card-grid">
+          <article class="card" id="job-webdev">
+            <div class="card-body">
+              <span class="badge">Full-time</span>
+              <span class="badge badge-green">Kampala</span>
+              <h3>Junior Web Developer</h3>
+              <p class="meta">TechBridge Uganda · ICT · Posted 3 days ago</p>
+              <p>We are looking for a recent graduate or self-taught developer who knows HTML, CSS and basic JavaScript. Training and mentorship provided.</p>
+              <div class="detail-meta">
+                <span><strong>Education:</strong> Diploma or equivalent experience</span>
+                <span><strong>Deadline:</strong> 30 November 2026</span>
+              </div>
+              <div class="card-actions">
+                <a href="mailto:careers@techbridge.ug?subject=Junior%20Web%20Developer" class="btn btn-primary btn-sm">Apply by email</a>
+                <a href="#guidance" class="btn btn-outline btn-sm">CV tips</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge badge-orange">Internship</span>
+              <span class="badge badge-green">Jinja</span>
+              <h3>Agriculture Extension Intern</h3>
+              <p class="meta">GreenFields Cooperative · Agriculture · Deadline 20 Nov</p>
+              <p>Support field officers in training smallholder farmers on digital record-keeping and connecting them to buyers. Stipend and transport provided.</p>
+              <div class="detail-meta">
+                <span><strong>Duration:</strong> 3 months</span>
+                <span><strong>Education:</strong> Certificate / Diploma in Agriculture</span>
+              </div>
+              <div class="card-actions">
+                <a href="mailto:interns@greenfields.ug" class="btn btn-primary btn-sm">Apply by email</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge">Part-time</span>
+              <span class="badge badge-green">Remote / Kampala</span>
+              <h3>Digital Marketing Assistant</h3>
+              <p class="meta">Kampala Creatives · Creative · Posted 1 week ago</p>
+              <p>Assist with social media calendars, basic graphic design and community engagement for local SME clients. Flexible hours suitable for students.</p>
+              <div class="detail-meta">
+                <span><strong>Hours:</strong> 15-20 per week</span>
+                <span><strong>Skills:</strong> Social media, writing, design</span>
+              </div>
+              <div class="card-actions">
+                <a href="mailto:hello@kampalacreatives.ug" class="btn btn-primary btn-sm">Apply by email</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge">Full-time</span>
+              <span class="badge badge-green">Kampala</span>
+              <h3>Data Entry &amp; Office Support</h3>
+              <p class="meta">HealthTrack NGO · Health · Posted 5 days ago</p>
+              <p>Support a public-health project with accurate data entry, filing and basic reporting. Attention to detail is essential.</p>
+              <div class="detail-meta">
+                <span><strong>Education:</strong> UCE / UACE or equivalent</span>
+                <span><strong>Start:</strong> Immediate</span>
+              </div>
+              <div class="card-actions">
+                <a href="mailto:hr@healthtrack.ug" class="btn btn-primary btn-sm">Apply by email</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge badge-orange">Internship</span>
+              <span class="badge badge-green">Mbarara</span>
+              <h3>Teaching Assistant (Primary)</h3>
+              <p class="meta">Bright Future School · Education · Deadline 25 Nov</p>
+              <p>Support classroom teachers with lesson preparation, marking and after-school reading clubs. Ideal for education students.</p>
+              <div class="detail-meta">
+                <span><strong>Duration:</strong> 1 school term</span>
+                <span><strong>Stipend:</strong> Yes</span>
+              </div>
+              <div class="card-actions">
+                <a href="mailto:admin@brightfutureschool.ug" class="btn btn-primary btn-sm">Apply by email</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge">Volunteer</span>
+              <span class="badge badge-green">Gulu</span>
+              <h3>Youth Mentorship Volunteer</h3>
+              <p class="meta">Hope Youth Centre · Community · Ongoing</p>
+              <p>Spend a few hours each week mentoring secondary-school students on study skills and career choices. Training and certificate provided.</p>
+              <div class="detail-meta">
+                <span><strong>Commitment:</strong> 4-6 hours/week</span>
+                <span><strong>Requirement:</strong> Completed senior 6 or higher</span>
+              </div>
+              <div class="card-actions">
+                <a href="mailto:volunteer@hopeyouth.ug" class="btn btn-primary btn-sm">Express interest</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="content-block mt-2">
+          <h2>How to apply successfully</h2>
+          <p>Most employers listed here accept applications by email. Attach a clear CV (PDF preferred) and a short cover message. Need help? Visit our <a href="#guidance">Career Guidance</a> section for templates and tips.</p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="page-header">
+          <h1>Skills &amp; Training</h1>
+          <p>Discover free and affordable programmes that improve your employability. Filter by cost, duration or sector.</p>
+        </div>
+
+        <h2 class="section-title">Training opportunities</h2>
+        <div class="filter-bar">
+          <label for="cost">Cost</label>
+          <select id="cost" name="cost">
+            <option value="">Any cost</option>
+            <option>Free</option>
+            <option>Low cost (under UGX 50,000)</option>
+            <option>Paid</option>
+          </select>
+          <label for="mode">Delivery</label>
+          <select id="mode" name="mode">
+            <option value="">Any mode</option>
+            <option>Online</option>
+            <option>In-person</option>
+            <option>Blended</option>
+          </select>
+        </div>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-body">
+              <span class="badge badge-green">Free</span>
+              <span class="badge">Online + labs</span>
+              <h3>Introduction to Web Development</h3>
+              <p class="meta">4 weeks · Certificate · Beginner friendly</p>
+              <p>HTML, CSS, basic JavaScript and how to publish a simple site. Weekend practical sessions in Kampala.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-primary btn-sm">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge">Low cost</span>
+              <span class="badge">Blended</span>
+              <h3>Digital Skills for Job Seekers</h3>
+              <p class="meta">2 weeks · Kampala &amp; online</p>
+              <p>Professional email, Google Workspace, CV writing and effective online job search. Includes feedback on your own CV.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-primary btn-sm">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge badge-green">Free</span>
+              <span class="badge">Blended</span>
+              <h3>Agribusiness Basics</h3>
+              <p class="meta">3 weeks · Rural &amp; peri-urban focus</p>
+              <p>Record-keeping, simple costing, and using mobile money and WhatsApp for sales and market access.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-primary btn-sm">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge badge-green">Free</span>
+              <span class="badge">Online</span>
+              <h3>Customer Service Essentials</h3>
+              <p class="meta">1 week · Self-paced modules</p>
+              <p>Communication skills, handling complaints and professional behaviour in retail, hospitality and call-centre settings.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-primary btn-sm">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge">Low cost</span>
+              <span class="badge">In-person</span>
+              <h3>Basic Bookkeeping with Spreadsheets</h3>
+              <p class="meta">2 weeks · Evening classes</p>
+              <p>Income and expense tracking, simple financial statements, and using free spreadsheet tools for small businesses.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-primary btn-sm">Enquire</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <span class="badge badge-green">Free</span>
+              <span class="badge">Online</span>
+              <h3>Open Online Courses (Curated)</h3>
+              <p class="meta">Self-paced · Various platforms</p>
+              <p>We maintain a short list of high-quality free courses relevant to the Ugandan job market.</p>
+              <div class="card-actions">
+                <a href="#guidance" class="btn btn-outline btn-sm">See resources</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="content-block mt-2">
+          <h2>Skills gaps we focus on</h2>
+          <ul>
+            <li>Practical digital skills (web, office tools, online communication)</li>
+            <li>Job-search and workplace readiness</li>
+            <li>Sector-specific skills in agriculture, health and customer-facing work</li>
+            <li>Basic financial literacy and record-keeping</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="guidance">
+        <div class="page-header">
+          <h1>Career Guidance</h1>
+          <p>Practical, locally relevant advice to help you present yourself well and search for work more effectively.</p>
+        </div>
+
+        <div class="content-block">
+          <h2>CV &amp; Cover Letter Tips</h2>
+          <p>A good CV for most entry-level roles in Uganda is 1-2 pages, clear, and focused on what you can offer.</p>
+          <ul>
+            <li><strong>Contact details</strong> _ Name, phone, professional email and portfolio if relevant.</li>
+            <li><strong>Profile / objective</strong> _ 2-3 lines stating the role you want and your strongest strength.</li>
+            <li><strong>Education</strong> _ Most recent first, with relevant projects or coursework.</li>
+            <li><strong>Experience</strong> _ Include internships, volunteer work and part-time jobs.</li>
+            <li><strong>Skills</strong> _ Match the job advert and be honest.</li>
+          </ul>
+        </div>
+
+        <div class="content-block">
+          <h2>Interview Preparation</h2>
+          <ul>
+            <li>Research the organisation and recent news.</li>
+            <li>Prepare short examples of problem-solving, teamwork and learning.</li>
+            <li>Dress neatly and arrive early or test your internet and camera for online interviews.</li>
+            <li>Prepare 1-2 questions for the interviewer.</li>
+            <li>Send a short thank-you message if you have an email contact.</li>
+          </ul>
+        </div>
+
+        <h2 class="section-title">Downloadable Resources</h2>
+        <ul class="resource-list">
+          <li>
+            <div>
+              <h3>Simple CV Template</h3>
+              <p class="meta">One-page layout with suggested headings for entry-level applicants</p>
+            </div>
+            <a href="#about" class="btn btn-outline btn-sm">Request template</a>
+          </li>
+          <li>
+            <div>
+              <h3>Cover Message Examples</h3>
+              <p class="meta">Short email templates for job and internship applications</p>
+            </div>
+            <a href="#about" class="btn btn-outline btn-sm">Request examples</a>
+          </li>
+          <li>
+            <div>
+              <h3>Job-Search Checklist</h3>
+              <p class="meta">Weekly actions to keep your search organised and consistent</p>
+            </div>
+            <a href="#about" class="btn btn-outline btn-sm">Request checklist</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="mentors">
+        <div class="page-header">
+          <h1>Mentors &amp; Success Stories</h1>
+          <p>Learn from people a few steps ahead of you and, when you are ready, offer support to others.</p>
+        </div>
+
+        <h2 class="section-title">Success Stories</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-body">
+              <h3>From campus projects to junior developer</h3>
+              <p class="meta">Sarah N. · Kampala · ICT</p>
+              <p>“I finished my diploma with only class projects. I improved my HTML and CSS through free online practice, built two small sites for community groups, and used those as my portfolio.&rdquo;</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Internship that became a full-time offer</h3>
+              <p class="meta">David O. · Jinja · Agriculture</p>
+              <p>“I took an unpaid internship with a cooperative because I wanted field experience. After the internship they created a paid junior position.&rdquo;</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Building skills while searching</h3>
+              <p class="meta">Amina K. · Mbarara · Mixed</p>
+              <p>“While looking for work I completed two short digital-skills courses and volunteered at a youth centre. Those experiences gave me concrete examples for interviews.&rdquo;</p>
+            </div>
+          </article>
+        </div>
+
+        <h2 class="section-title" style="margin-top: 2.25rem;">Meet some mentors</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-body">
+              <h3>James M.</h3>
+              <p class="meta">Software developer · 5 years experience</p>
+              <p>Can advise on learning web development, building a first portfolio, and applying for junior tech roles in Kampala.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-outline btn-sm">Request introduction</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Grace A.</h3>
+              <p class="meta">Agribusiness advisor · NGO sector</p>
+              <p>Supports youth interested in agriculture value chains, record-keeping and moving from farm work into extension or sales roles.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-outline btn-sm">Request introduction</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Peter S.</h3>
+              <p class="meta">HR officer · Private sector</p>
+              <p>Happy to review CVs and run mock interviews for graduates preparing for their first professional applications.</p>
+              <div class="card-actions">
+                <a href="#about" class="btn btn-outline btn-sm">Request introduction</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="page-header">
+          <h1>About YouthLink Uganda</h1>
+          <p>A student project built to reduce the information gap that keeps many young Ugandans from finding work and skills opportunities.</p>
+        </div>
+
+        <div class="content-block">
+          <h2>Our mission</h2>
+          <p>Every year hundreds of thousands of young people enter the Ugandan labour market, yet many struggle to discover the limited opportunities that do exist. YouthLink Uganda brings jobs, skills programmes, practical guidance and mentorship connections into one simple, mobile-friendly website.</p>
+        </div>
+
+        <div class="content-block">
+          <h2>What you will find here</h2>
+          <ul>
+            <li><strong>Jobs &amp; Internships</strong> _ Entry-level vacancies and practical placements.</li>
+            <li><strong>Skills &amp; Training</strong> _ Free and low-cost programmes that improve employability.</li>
+            <li><strong>Career Guidance</strong> _ CV tips, interview advice and sector overviews.</li>
+            <li><strong>Mentors &amp; Stories</strong> _ Real examples of progress and guidance.</li>
+          </ul>
+        </div>
+
+        <div class="content-block" id="contact">
+          <h2>Contact us</h2>
+          <p>For questions, to post a vacancy or programme, or to offer mentorship, use the form below or email the project address.</p>
+          <form action="#" method="post" style="max-width: 520px; margin-top: 1rem;">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" id="name" name="name" required placeholder="Full name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="general">General enquiry</option>
+                <option value="job">Post a job / internship</option>
+                <option value="programme">List a skills programme</option>
+                <option value="mentor">Become a mentor</option>
+                <option value="feedback">Feedback on the site</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="How can we help?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+          <p class="mt-2"><strong>Project email:</strong> youthlink.uganda@example.com</p>
+        </div>
+
+        <div class="content-block" id="faq">
+          <h2>Frequently asked questions</h2>
+          <h3>Is the website free to use?</h3>
+          <p>Yes. Browsing jobs, skills and guidance is free for everyone.</p>
+
+          <h3>How do I post a job or internship?</h3>
+          <p>Send the details through the contact form or email. Listings are reviewed before they appear.</p>
+
+          <h3>Are the jobs and programmes real?</h3>
+          <p>The current content is sample data created for this student project. Always confirm details with the organisation before applying.</p>
+
+          <h3>Who built this site?</h3>
+          <p>A group of students from Victoria University as part of the Internet Technology &amp; Web Design module.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>YouthLink Uganda</h3>
+          <p>A student-built platform connecting youth to opportunities, skills and mentors.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#jobs">Jobs &amp; Internships</a></li>
+            <li><a href="#skills">Skills &amp; Training</a></li>
+            <li><a href="#guidance">Career Guidance</a></li>
+            <li><a href="#mentors">Mentors &amp; Stories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li><a href="#about">Our Mission</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 YouthLink Uganda · Group Project · Internet Technology &amp; Web Design · Victoriass University</p>
+        <p>Sample content for educational purposes. Real opportunities should be verified independently.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

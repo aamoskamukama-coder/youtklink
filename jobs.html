@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse job and internship opportunities for youth in Uganda - YouthLink Uganda.">
+  <title>Jobs &amp; Internships - YouthLink Uganda</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Youth<span>Link</span> Uganda</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="jobs.html" class="active">Jobs</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="guidance.html">Guidance</a></li>
+          <li><a href="mentors.html">Mentors</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <div class="page-header">
+        <h1>Jobs &amp; Internships</h1>
+        <p>Filter and browse entry-level jobs, internships and volunteer opportunities across Uganda. Always verify details with the employer before applying.</p>
+      </div>
+
+      <!-- Simple filter bar (static for demonstration) -->
+      <div class="filter-bar" role="search" aria-label="Filter opportunities">
+        <label for="location">Location</label>
+        <select id="location" name="location">
+          <option value="">All locations</option>
+          <option>Kampala</option>
+          <option>Jinja</option>
+          <option>Mbarara</option>
+          <option>Gulu</option>
+          <option>Remote</option>
+        </select>
+        <label for="type">Type</label>
+        <select id="type" name="type">
+          <option value="">All types</option>
+          <option>Full-time</option>
+          <option>Part-time</option>
+          <option>Internship</option>
+          <option>Volunteer</option>
+        </select>
+        <label for="sector">Sector</label>
+        <select id="sector" name="sector">
+          <option value="">All sectors</option>
+          <option>ICT</option>
+          <option>Agriculture</option>
+          <option>Health</option>
+          <option>Education</option>
+          <option>Creative</option>
+        </select>
+      </div>
+
+      <h2 class="section-title">Available opportunities</h2>
+      <div class="card-grid">
+        <!-- Job 1 -->
+        <article class="card" id="job-webdev">
+          <div class="card-body">
+            <span class="badge">Full-time</span>
+            <span class="badge badge-green">Kampala</span>
+            <h3>Junior Web Developer</h3>
+            <p class="meta">TechBridge Uganda · ICT · Posted 3 days ago</p>
+            <p>We are looking for a recent graduate or self-taught developer who knows HTML, CSS and basic JavaScript. You will maintain small client websites and learn on the job. Training and mentorship provided.</p>
+            <div class="detail-meta">
+              <span><strong>Education:</strong> Diploma or equivalent experience</span>
+              <span><strong>Deadline:</strong> 30 November 2026</span>
+            </div>
+            <div class="card-actions">
+              <a href="mailto:careers@techbridge.ug?subject=Junior%20Web%20Developer" class="btn btn-primary btn-sm">Apply by email</a>
+              <a href="guidance.html" class="btn btn-outline btn-sm">CV tips</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 2 -->
+        <article class="card">
+          <div class="card-body">
+            <span class="badge badge-orange">Internship</span>
+            <span class="badge badge-green">Jinja</span>
+            <h3>Agriculture Extension Intern</h3>
+            <p class="meta">GreenFields Cooperative · Agriculture · Deadline 20 Nov</p>
+            <p>Support field officers in training smallholder farmers on digital record-keeping and connecting them to buyers. Stipend and transport provided. Ideal for agriculture or agribusiness students.</p>
+            <div class="detail-meta">
+              <span><strong>Duration:</strong> 3 months</span>
+              <span><strong>Education:</strong> Certificate / Diploma in Agriculture</span>
+            </div>
+            <div class="card-actions">
+              <a href="mailto:interns@greenfields.ug" class="btn btn-primary btn-sm">Apply by email</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 3 -->
+        <article class="card">
+          <div class="card-body">
+            <span class="badge">Part-time</span>
+            <span class="badge badge-green">Remote / Kampala</span>
+            <h3>Digital Marketing Assistant</h3>
+            <p class="meta">Kampala Creatives · Creative · Posted 1 week ago</p>
+            <p>Assist with social media calendars, basic graphic design (Canva), and community engagement for local SME clients. Flexible hours suitable for students.</p>
+            <div class="detail-meta">
+              <span><strong>Hours:</strong> 15-20 per week</span>
+              <span><strong>Skills:</strong> Social media, writing, basic design</span>
+            </div>
+            <div class="card-actions">
+              <a href="mailto:hello@kampalacreatives.ug" class="btn btn-primary btn-sm">Apply by email</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 4 -->
+        <article class="card">
+          <div class="card-body">
+            <span class="badge">Full-time</span>
+            <span class="badge badge-green">Kampala</span>
+            <h3>Data Entry &amp; Office Support</h3>
+            <p class="meta">HealthTrack NGO · Health · Posted 5 days ago</p>
+            <p>Support a public-health project with accurate data entry, filing and basic reporting. Training on the tools will be given. Attention to detail essential.</p>
+            <div class="detail-meta">
+              <span><strong>Education:</strong> UCE / UACE or equivalent</span>
+              <span><strong>Start:</strong> Immediate</span>
+            </div>
+            <div class="card-actions">
+              <a href="mailto:hr@healthtrack.ug" class="btn btn-primary btn-sm">Apply by email</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 5 -->
+        <article class="card">
+          <div class="card-body">
+            <span class="badge badge-orange">Internship</span>
+            <span class="badge badge-green">Mbarara</span>
+            <h3>Teaching Assistant (Primary)</h3>
+            <p class="meta">Bright Future School · Education · Deadline 25 Nov</p>
+            <p>Support classroom teachers with lesson preparation, marking and after-school reading clubs. Good opportunity for education students.</p>
+            <div class="detail-meta">
+              <span><strong>Duration:</strong> 1 school term</span>
+              <span><strong>Stipend:</strong> Yes</span>
+            </div>
+            <div class="card-actions">
+              <a href="mailto:admin@brightfutureschool.ug" class="btn btn-primary btn-sm">Apply by email</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 6 -->
+        <article class="card">
+          <div class="card-body">
+            <span class="badge">Volunteer</span>
+            <span class="badge badge-green">Gulu</span>
+            <h3>Youth Mentorship Volunteer</h3>
+            <p class="meta">Hope Youth Centre · Community · Ongoing</p>
+            <p>Spend a few hours each week mentoring secondary-school students on study skills and career choices. Training and certificate provided.</p>
+            <div class="detail-meta">
+              <span><strong>Commitment:</strong> 4-6 hours/week</span>
+              <span><strong>Requirement:</strong> Completed senior 6 or higher</span>
+            </div>
+            <div class="card-actions">
+              <a href="mailto:volunteer@hopeyouth.ug" class="btn btn-primary btn-sm">Express interest</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="content-block mt-2">
+        <h2>How to apply successfully</h2>
+        <p>Most employers listed here accept applications by email. Attach a clear CV (PDF preferred) and a short cover message. Need help? Visit our <a href="guidance.html">Career Guidance</a> section for templates and tips.</p>
+      </div>
+
+      <div class="content-block">
+        <h2>Are you an employer?</h2>
+        <p>You can post an entry-level vacancy or internship free of charge. Send the details (title, location, requirements, how to apply, deadline) to the contact address on the About page. Listings are reviewed before publication.</p>
+        <a href="about.html#contact" class="btn btn-outline btn-sm mt-1">Contact us to post a job</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>YouthLink Uganda</h3>
+          <p>A student-built platform connecting youth to opportunities, skills and mentors.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="jobs.html">Jobs &amp; Internships</a></li>
+            <li><a href="skills.html">Skills &amp; Training</a></li>
+            <li><a href="guidance.html">Career Guidance</a></li>
+            <li><a href="mentors.html">Mentors &amp; Stories</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li><a href="about.html">Our Mission</a></li>
+            <li><a href="about.html#contact">Contact</a></li>
+            <li><a href="about.html#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 YouthLink Uganda · Group Project · Internet Technology &amp; Web Design · Makerere University</p>
+        <p>Sample content for educational purposes. Real opportunities should be verified independently.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
